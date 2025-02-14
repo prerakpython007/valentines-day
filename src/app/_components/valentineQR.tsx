@@ -3,7 +3,7 @@ import { QRCodeSVG } from 'qrcode.react';
 import { Flower2 } from 'lucide-react';
 
 const ValentineQR = () => {
-  const baseURL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const baseURL = process.env.NEXT_PUBLIC_SITE_URL || 'https://valentines-day-6j6m.vercel.app/';
   const valentineURL = `${baseURL}/valentine`;
 
   return (
