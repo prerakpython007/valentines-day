@@ -73,13 +73,7 @@ const ImageCarousel = () => {
 };
 
 
-const GifSection = () => {
-  return (
-    <div className="w-full max-w-md mx-auto mt-8">
-      hi
-    </div>
-  )
-}
+
 
 const ValentinePage = () => {
   const [isClient, setIsClient] = useState(false);
